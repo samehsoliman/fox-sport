@@ -187,7 +187,9 @@ select{
     align-items: center;
     padding: .3rem 10px;
     position: fixed;
-    width: 80%;
+    width: 100%;
+    padding: 0 10%;
+    left: 0;
     background-color: white;
     z-index: 10;
 }
@@ -263,15 +265,21 @@ select{
 /* offers */
 
 .offers{
-    background: radial-gradient(#fff,#ffd6d6)
+    background: radial-gradient(#fff,#ffd6d6);
+    padding: 1.5rem 0;
 }
 
 .offers img{
     width: 100%;
 }
 
-.offer h1{
-    color: black!important;
+.offers h1{
+    color: black;
+    margin-bottom: 2.5rem;
+}
+
+.offers h4{
+    margin-bottom: 2.5rem;
 }
 
 /* testimonial */
@@ -669,8 +677,7 @@ td{
 
     .navbar{
         justify-content: flex-start;
-        padding: .3rem 0;
-        width: 90%;
+        padding: .3rem 5%;
     }
 
     .navbar-logo{
@@ -712,6 +719,7 @@ td{
         font-size: 2rem;
     }
 
+   
     /* product detail */
     .product-detail-txt{
         padding: 3px;
